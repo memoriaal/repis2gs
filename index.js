@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
     res.send('foo')
 })
 
-const port = 3000
+const port = 8080
 app.listen(port, (req, res) => {
-    console.log('Running on ', port)
+    console.log(`Listening on port ${port}`)
 })
