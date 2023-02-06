@@ -1,0 +1,28 @@
+{
+  "name": "repis2gs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/memoriaal/repis2gs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/memoriaal/repis2gs/issues"
+  },
+  "homepage": "https://github.com/memoriaal/repis2gs#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "google-spreadsheet": "^3.3.0",
+    "googleapis": "^110.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
